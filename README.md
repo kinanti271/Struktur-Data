@@ -1,18 +1,32 @@
-[import java.util.Scanner;]untuk membaca inputan yang dimasukkan (baris 1)
+[import java.util.Scanner;] untuk membaca inputan yang dimasukkan 
 
-[public class konversiwaktu]untuk nama file ataupun program (baris 2)
+[public class konversiwaktu] untuk nama file ataupun program 
 
-dimulainya ataupun awal dijalankan sebuah program (baris 4)
-untuk menerima sebuah output/masukkan(baris 5)
-untuk menyimpan harga,diskon,dan hasil perhitungan(baris 7)
-untuk menampilkan baris kosong (baris 8)
-untuk menampilkan kalimat "masukkan harga" dan untuk meminta pengguna untuk memasukkan harga "="(baris 10)
-untuk menyimpan harga yang di telah di input/dimasukkan ke dalam variabel HARGA(baris 11)
-untuk menampikan kalimat "masukkan diskon" dan inputkan/ masukkan diskon dalam bentuk % (baris 13)
-menyimpan inputan diskon ke dalam variabel DISKON (baris 14)
-untuk menampilakan baris kosong(baris 15)
-Menghitung jumlah diskon yang didapat (baris 17)
-Menampilkan jumlah diskon yang di dalam kurung itu hitunagn dari diskon contoh 10/100 x 100.000 = 10.000(baris 18)
-menghitung harga akhir setelah diskon (baris 20)
-Menampilkan harga yang harus di bayar contoh harga awal 100.0000 - diskon 10.000 = harga setelah dsikon 90.000(baris 21)
-untuk menampilkan baris kosong (baris 22)
+[public static void main(String[] args)] dimulainya ataupun awal dijalankan sebuah program 
+
+[Scanner sc = new Scanner(System.in);] untuk menerima sebuah output/masukkan
+
+[double Harga, Diskon, Persentase, Bayar;] untuk menyimpan harga,diskon,dan hasil perhitungan
+
+[System.out.println(" ");] untuk menampilkan baris kosong 
+
+[System.out.print("Masukkan harga = ");] untuk menampilkan kalimat "masukkan harga" dan untuk meminta pengguna untuk memasukkan harga "="
+
+[Harga = sc.nextInt();] untuk menyimpan harga yang di telah di input/dimasukkan ke dalam variabel HARGA
+
+[System.out.print("Masukkan diskon = ");] untuk menampikan kalimat "masukkan diskon" dan inputkan/ masukkan diskon dalam bentuk % 
+
+[Diskon = sc.nextInt();] menyimpan inputan diskon ke dalam variabel DISKON 
+untuk menampilakan baris kosong
+
+[System.out.println(" ");] untuk menampilkan baris kosong 
+
+[Persentase = Diskon / 100 * Harga;] Menghitung jumlah diskon yang didapat 
+
+[System.out.println("Persentase Diskon = "+Persentase);] Menampilkan jumlah diskon yang di dalam kurung itu hitunagn dari diskon contoh 10/100 x 100.000 = 10.000
+
+[Bayar = Harga - Persentase;] menghitung harga akhir setelah diskon 
+
+[System.out.println("Jumlah yang harus di bayar = RP. "+Bayar);] Menampilkan harga yang harus di bayar contoh harga awal 100.0000 - diskon 10.000 = harga setelah dsikon 90.000
+
+[System.out.println(" ");] untuk menampilkan baris kosong 
