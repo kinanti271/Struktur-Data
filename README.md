@@ -1,5 +1,7 @@
-untuk membaca inputan yang dimasukkan (baris 1)
-untuk nama file ataupun program (baris 2)
+[import java.util.Scanner;]untuk membaca inputan yang dimasukkan (baris 1)
+
+[public class konversiwaktu]untuk nama file ataupun program (baris 2)
+
 dimulainya ataupun awal dijalankan sebuah program (baris 4)
 untuk menerima sebuah output/masukkan(baris 5)
 untuk menyimpan harga,diskon,dan hasil perhitungan(baris 7)
