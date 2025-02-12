@@ -1,4 +1,1 @@
-penjelasan 
-penjelasan 
-penjelasan 
-penjelasan 
+unutk membaca inputan yang dimasukkan 
